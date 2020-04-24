@@ -13,7 +13,7 @@ function isIE() {
 
 export const msalApp = new UserAgentApplication({
   auth: {
-    clientId: '47ee545d-7bd2-47de-b86e-586333b4145c', // TODO: move this into a cfg value from composition root
+    clientId: '32b45ef3-2078-4c28-b42a-fa4f6232240f', // TODO: move this into a cfg value from composition root
     authority: 'https://login.microsoftonline.com/common',
     validateAuthority: true,
     postLogoutRedirectUri: 'http://localhost:3000',
